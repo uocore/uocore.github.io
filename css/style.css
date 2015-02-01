@@ -340,7 +340,10 @@ body {
 #logo {
     margin-top: 8rem;
     margin-bottom: 0.4rem;
-    opacity:1;
+}
+
+#logo img {
+    opacity: 0.8;
 }
 
 #logo_header {
@@ -351,7 +354,7 @@ body {
     font-size: 2rem;
     color:white;
     margin:0px;
-    pading:0px;
+    padding:0px;
     opacity:0;
     position:relative;
     z-index:1;
