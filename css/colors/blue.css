@@ -10,10 +10,6 @@ body {
     background-color: #1f9bc9;
 }
 
-.cta1 {
-    background-color:black;
-}
-
 
 
 
@@ -27,7 +23,9 @@ body {
     background-color: #18bcf9;
 }
 
-
+.cta2 {
+    border: 1px solid #0177A3;
+}
 
 
 
