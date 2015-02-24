@@ -688,6 +688,10 @@ body {
     color:white;
 }
 
+#footer h2 {
+    margin-bottom: 0.5rem;
+}
+
 
 /* Newsletter Form */
 
