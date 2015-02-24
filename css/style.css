@@ -62,8 +62,8 @@ h1 {
 }
 
 h2 {
-    font-size:2.5rem;
-    line-height:3.6rem;
+    font-size:2rem;
+    line-height:2.6rem;
     margin-bottom:1.7rem;
 }
 
@@ -493,7 +493,7 @@ body {
 /*FEATURES 1 ###########################*/
 /*######################################*/
 
-#features_1 {
+#features_1, #features_4 {
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
@@ -504,7 +504,7 @@ body {
     text-align:left;
 }
 
-#features_1_content {
+#features_1_content, #features_4_content {
     padding-top:3rem;
 }
 
@@ -536,7 +536,7 @@ body {
 }
 
 
-#features_1_content, #features1a_image, #features1b_image {opacity:0;}
+#features_1_content, #features1a_image, #features1b_image, #features_4_content, #features4a_image, #features4b_image {opacity:0;}
 
 
 /*######################################*/
@@ -545,13 +545,14 @@ body {
 
 #features_2 {
     margin:0px;
-    padding-top:3.25rem;
+    padding-top:4rem;
     padding-bottom:3.25rem;
     background:white;
     position:relative;
     display:block;
     z-index:20;
     text-align:left;
+    overflow: hidden;
 }
 
 #features_2_content {
@@ -612,7 +613,6 @@ body {
 
 #gallery {
     margin:0px;
-    padding-top:6.5rem;
     padding-bottom:6.5rem;
     background:white;
     position:relative;
@@ -646,9 +646,28 @@ body {
     animation: pulse .5s;
 }
 
+.pattern-bg {
+    display: block;
+    background: url(../images/pattern-bg.jpg), no-repeat center center;
+    background-size: 100% 100%;
+}
 
+.pattern-bg img {
+    opacity: 0;
+}
 
-#gallery_intro, #gallery_carousel {opacity:0;}
+.pattern-bg.active img {
+    opacity: 1;
+}
+
+.item h4 {
+    padding-top: 2rem;
+}
+
+#gallery_intro, #gallery_carousel {
+    opacity:0; 
+    padding-top: 2rem;
+}
 
 
 /*######################################*/
@@ -805,5 +824,7 @@ body {
 #fb_icon:hover, #tw_icon:hover, #in_icon:hover, #g_icon:hover, #pin_icon:hover, #fli_icon:hover {
     cursor: pointer;
 }
-
+.no-max-width {
+    max-width: auto;
+}
 

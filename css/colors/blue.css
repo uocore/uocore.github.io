@@ -7,7 +7,7 @@ body {
 }
 
 #footer {
-    background-color: #1f9bc9;
+    background-color: #3f71ba;
 }
 
 
@@ -20,13 +20,24 @@ body {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 .cta2 {
-    background-color: #18bcf9;
+    background-color: #3f71ba;
+}
+
+.subscribe-submit, 
+.subscribe-submit:active {
+    opacity: 0.8;
+}
+
+.subscribe-submit:hover {
+    opacity: 0.9;
 }
 
 .cta2 {
-    border: 1px solid #0177A3;
+    border: 1px solid #0749B0;
 }
-
+.cta2:hover {
+    background-color: #0749B0;
+}
 
 
 
@@ -37,7 +48,7 @@ body {
 #pin_icon:hover, 
 #fli_icon:hover,
 .services_icon {
-    fill:#18bcf9;
+    fill:#3f71ba;
 }
 
 
@@ -66,11 +77,11 @@ h3 {
 }
 
 h4 {
-    color:#18bcf9;
+    color:#3f71ba;
 }
 
 .feature_icon {
-    fill:#d8d8d8;
+    fill:#3f71ba;
 }
 
 .arrow_up,
