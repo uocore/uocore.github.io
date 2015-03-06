@@ -535,6 +535,9 @@ body {
     z-index:29;
 }
 
+.image_back.left {
+    left: -510px;
+}
 
 #features_1_content, #features1a_image, #features1b_image, #features_4_content, #features4a_image, #features4b_image {opacity:0;}
 
@@ -654,6 +657,11 @@ body {
 
 .pattern-bg img {
     opacity: 0;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    -webkit-transition-property: opacity, transform, -webkit-transform;
+    transition-property: opacity, transform, -webkit-transform;
+    
 }
 
 .pattern-bg.active img {
