@@ -23,10 +23,29 @@
         font-size: 81.25%;
     }
 
-    #features_1, #features_2 {
+    #home_image {
+        max-width: 100%;
+    }
+
+    #features_1, #features_2, #features_4 {
     text-align:center;
     }
+
+    #features_2_content {
+        margin-bottom: 30px;
+    }
+
+    #features_4_content {
+        margin-top: 20px;
+    }
     
+    #features2a_image, #features4a_image {
+        max-width: 675px;
+    }
+
+    .image_back.left {
+        left: -300px;
+    }
 
     .feature_icon {
     float:none;
