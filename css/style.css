@@ -700,7 +700,21 @@ body {
     margin-bottom: 0.5rem;
 }
 
+#footer svg {
+    height: 1rem; 
+    width: 1rem; 
+    position: relative; 
+    top: 4px; 
+    fill: #fff;
+}
 
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover {
+    border-bottom: 1px #fff dotted;
+}
 /* Newsletter Form */
 
 #newsletter_form {
