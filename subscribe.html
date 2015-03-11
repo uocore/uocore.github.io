@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>uoCore - Increase User Engagement</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS Files comes here -->
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="css/animate.css" rel="stylesheet" media="screen">
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+<link href="css/nivo-lightbox.css" rel="stylesheet" media="screen">
+<link href="css/nivo_lightbox_themes/default/default.css"
+	rel="stylesheet" media="screen">
+<link href="css/colors/blue.css" rel="stylesheet" media="screen">
+<link href="css/responsive.css" rel="stylesheet" media="screen">
+
+<!-- Google fonts -->
+<link
+	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic"
+	rel="stylesheet" type="text/css">
+
+<!-- Modernizer and IE specyfic files -->
+<script src="js/modernizr.custom.js"></script>
+
+<body>
+
+	<!--###############################-->
+	<!--PRELOADER #####################-->
+	<!--###############################-->
+
+	<div id="preloader">
+		<div id="status">
+			<div class="spinner">
+				<div class="bounce1"></div>
+				<div class="bounce2"></div>
+				<div class="bounce3"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--###############################-->
+	<!--Newsletter and Footer #########-->
+	<!--###############################-->
+
+	<section id="footer">
+		<div class="container">
+			<div class="row" id="newsletter">
+				<div
+					class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+
+					<h2>Subscribe now to get uoCore iOS first</h2>
+					<p style="margin-bottom: 40px;">Be in first line of uoCore customers, take part in development process and get our beta in two month</p>
+
+					
+
+					<script async="async"
+						src="js/paypal.mini.js?merchant=tenkfm@gmail.com"
+						data-button="subscribe" data-name="uoCore" data-amount="1"
+						data-currency="USD" data-recurrence="2" data-period="M"
+						data-callback="http://uocore.mobi/confirm"></script>
+
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div
+					class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1"
+					id="share">
+
+
+					<p>Copyright &copy; 2015 uoCore</p>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- JavaScript plugins comes here -->
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.form.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/retina.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
+	<script type="text/javascript">
+		$('document').ready(function() {
+			$('#subscribe-form').ajaxForm({
+				target : '#preview',
+				success : function() {
+					$('#subscribe-form').slideUp('slow');
+					$('#preview').css({
+						"opacity" : "1"
+					});
+				}
+			});
+		});
+	</script>
+	<script>
+		var url = 'images/icons.svg';
+		var c = new XMLHttpRequest();
+		c.open('GET', url, false);
+		c.setRequestHeader('Content-Type', 'text/xml');
+		c.send();
+		document.body.insertBefore(c.responseXML.firstChild,
+				document.body.firstChild)
+	</script>
+
+
+</body>
+</html>
