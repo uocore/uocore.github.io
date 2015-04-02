@@ -2172,7 +2172,13 @@
     </div>
     </section>
     
-    
+    <script>
+    $('#button_download').hover(function(){
+        tutorial=myTips.startTutorial('551daa787574bfc701910ee5')
+        },function(){
+            tutorial.stop();
+    })
+
     <!--###############################-->
     <!--ABOUT #########################-->
     <!--###############################-->
@@ -2499,6 +2505,8 @@
         document.body.insertBefore(c.responseXML.firstChild, document.body.firstChild)
     </script>
 
-        
+    <!-- myTips install -->
+    <script type="text/javascript">!function(m,y,T,i,p,s){m[T[1]]&&m[T[1]][T[2]]&&m[T[1]][T[2]]();m[T[0]]&&m[T[0]].__&&m[T[0]].__[T[2]]&&m[T[0]].__[T[2]]();m[T[0]]=function(onReadyHandler){var l=m[T[0]],n='onReadyStack',h=onReadyHandler;(l[n]||(l[n]=[]))&& typeof h==='function'&&l[n].push(h)};m[T[0]].__={setup:{api_key: '019462795ed2291b0859a88ec8d7106595f1a316'},version:'1.3.1',apiCallStack:[]};['showTutorialList','startTutorial','withActiveTutorial'].forEach(function(mn){m[T[0]][mn]=function(){m[T[0]].__.apiCallStack.push([mn,arguments])}});s=y.createElement('script'),s.type='text/javascript',s.src='https://mytips.co/webclient/loader.js',s.async=!0,y.getElementsByTagName('head').item(0).appendChild(s)}(window,document,'myTips|myTipsApp|destroy'.split('|'))</script>
+    
   </body>
 </html>
