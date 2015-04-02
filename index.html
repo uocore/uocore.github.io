@@ -2174,14 +2174,6 @@
         </div>
     </div>
     </section>
-
-    <script>
-        $('#button_download').hover(function(){
-            myTips.startTutorial('551daa787574bfc701910ee5');
-                },function(){
-            myTips.startTutorial('551daa787574bfc701910ee5').stop();
-        });
-    </script>
     
     <!--###############################-->
     <!--ABOUT #########################-->
@@ -2510,6 +2502,13 @@
         document.body.insertBefore(c.responseXML.firstChild, document.body.firstChild)
     </script>
 
-        
+    <script>
+        $('.cta2').hover(function(){
+            myTips.startTutorial("551daa787574bfc701910ee5");
+                },function(){
+            myTips.startTutorial("551daa787574bfc701910ee5").stop();
+        });
+    </script>
+
   </body>
 </html>
